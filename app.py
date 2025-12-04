@@ -9,6 +9,10 @@ app = Flask(__name__)
 VISUALIZATIONS_DIR = Path('visualizations')
 VISUALIZATIONS_DIR.mkdir(exist_ok=True)
 
+def get_title_from_viz_data(viz_data,filename):
+
+    return viz_data.get('layout').get('title').get('text') or viz_data.get('title', filename)
+
 def get_all_visualizations():
     """Get metadata for all available visualizations"""
     visualizations = []
@@ -18,7 +22,7 @@ def get_all_visualizations():
                 viz_data = json.load(f)
                 visualizations.append({
                     'id': file.stem,
-                    'title': viz_data.get('title', file.stem),
+                    'title': get_title_from_viz_data(viz_data, file.stem),
                     'description': viz_data.get('description', ''),
                 })
         except Exception as e:
@@ -44,7 +48,7 @@ def visualization(viz_id):
 
     return render_template('visualization.html',
                          viz_id=viz_id,
-                         title=viz_data.get('title', viz_id),
+                         title=get_title_from_viz_data(viz_data,viz_file.stem),
                          description=viz_data.get('description', ''))
 
 @app.route('/embed/<viz_id>')
