@@ -1,0 +1,52 @@
+{
+  "title": "Sample Line Chart",
+  "description": "A simple line chart showing trend over time",
+  "data": [
+    {
+      "x": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+      "y": [10, 15, 13, 17, 20, 18, 25, 28, 30, 35],
+      "type": "scatter",
+      "mode": "lines+markers",
+      "name": "Series 1",
+      "line": {
+        "color": "#3498db",
+        "width": 3
+      },
+      "marker": {
+        "size": 8,
+        "color": "#3498db"
+      }
+    },
+    {
+      "x": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+      "y": [5, 8, 10, 12, 15, 14, 18, 20, 22, 25],
+      "type": "scatter",
+      "mode": "lines+markers",
+      "name": "Series 2",
+      "line": {
+        "color": "#e74c3c",
+        "width": 3
+      },
+      "marker": {
+        "size": 8,
+        "color": "#e74c3c"
+      }
+    }
+  ],
+  "layout": {
+    "title": "Sample Line Chart",
+    "xaxis": {
+      "title": "Time Period"
+    },
+    "yaxis": {
+      "title": "Value"
+    },
+    "hovermode": "closest",
+    "showlegend": true
+  },
+  "config": {
+    "responsive": true,
+    "displayModeBar": true,
+    "displaylogo": false
+  }
+}

@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }} - Chart Host{% endblock %}
+
+{% block content %}
+<div class="viz-container">
+    <h2>{{ title }}</h2>
+    {% if description %}
+    <p class="viz-description">{{ description }}</p>
+    {% endif %}
+    <div id="chart"></div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+// Fetch the visualization data and render it
+fetch('/api/viz/{{ viz_id }}')
+    .then(response => response.json())
+    .then(data => {
+        // Extract Plotly data and layout
+        const plotData = data.data || [];
+        const layout = data.layout || {};
+        const config = data.config || {responsive: true};
+
+        // Ensure the chart is responsive
+        if (!layout.autosize) {
+            layout.autosize = true;
+        }
+
+        // Render the chart
+        Plotly.newPlot('chart', plotData, layout, config);
+    })
+    .catch(error => {
+        console.error('Error loading visualization:', error);
+        document.getElementById('chart').innerHTML =
+            '<p class="error">Error loading visualization. Please check the console for details.</p>';
+    });
+
+// Make the chart responsive to window resizing
+window.addEventListener('resize', () => {
+    Plotly.Plots.resize('chart');
+});
+</script>
+{% endblock %}

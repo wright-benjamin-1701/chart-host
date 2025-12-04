@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block title %}Chart Host - Home{% endblock %}
+
+{% block content %}
+<div class="hero">
+    <h2>Data Visualizations Gallery</h2>
+    <p>Browse and embed interactive charts in your blog posts</p>
+</div>
+
+{% if visualizations %}
+<div class="gallery">
+    {% for viz in visualizations %}
+    <div class="viz-card">
+        <h3>{{ viz.title }}</h3>
+        {% if viz.description %}
+        <p class="description">{{ viz.description }}</p>
+        {% endif %}
+        <div class="actions">
+            <a href="/viz/{{ viz.id }}" class="btn btn-primary" target="_blank">View Chart</a>
+            <button class="btn btn-secondary" onclick="copyEmbedCode('{{ viz.id }}')">Copy Embed Code</button>
+        </div>
+        <div id="embed-code-{{ viz.id }}" class="embed-code" style="display: none;">
+            <code>&lt;iframe src="{{ request.url_root }}viz/{{ viz.id }}" width="100%" height="600" frameborder="0"&gt;&lt;/iframe&gt;</code>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+<div class="empty-state">
+    <p>No visualizations available yet.</p>
+    <p>Add JSON files to the <code>visualizations/</code> directory to get started.</p>
+</div>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+<script>
+function copyEmbedCode(vizId) {
+    const embedDiv = document.getElementById('embed-code-' + vizId);
+    const code = embedDiv.querySelector('code').textContent;
+
+    navigator.clipboard.writeText(code).then(() => {
+        // Show the embed code temporarily
+        embedDiv.style.display = 'block';
+        setTimeout(() => {
+            embedDiv.style.display = 'none';
+        }, 3000);
+        alert('Embed code copied to clipboard!');
+    }).catch(err => {
+        console.error('Failed to copy:', err);
+        embedDiv.style.display = 'block';
+    });
+}
+</script>
+{% endblock %}

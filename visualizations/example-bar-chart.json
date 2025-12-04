@@ -1,0 +1,31 @@
+{
+  "title": "Sample Bar Chart",
+  "description": "A bar chart showing categorical data comparison",
+  "data": [
+    {
+      "x": ["Category A", "Category B", "Category C", "Category D", "Category E"],
+      "y": [20, 35, 30, 45, 25],
+      "type": "bar",
+      "marker": {
+        "color": ["#3498db", "#2ecc71", "#f39c12", "#e74c3c", "#9b59b6"]
+      },
+      "text": [20, 35, 30, 45, 25],
+      "textposition": "auto"
+    }
+  ],
+  "layout": {
+    "title": "Sample Bar Chart",
+    "xaxis": {
+      "title": "Categories"
+    },
+    "yaxis": {
+      "title": "Values"
+    },
+    "hovermode": "closest"
+  },
+  "config": {
+    "responsive": true,
+    "displayModeBar": true,
+    "displaylogo": false
+  }
+}
