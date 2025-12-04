@@ -8,12 +8,59 @@
     {% if description %}
     <p class="viz-description">{{ description }}</p>
     {% endif %}
+
+    <div class="embed-controls">
+        <button onclick="copyEmbedLink()" class="embed-btn">📋 Copy Embed Link</button>
+        <button onclick="copyEmbedCode()" class="embed-btn">📋 Copy Embed Code</button>
+    </div>
+
     <div id="chart"></div>
 </div>
 {% endblock %}
 
 {% block scripts %}
 <script>
+// Get the embed URL
+const embedUrl = window.location.origin + '/embed/{{ viz_id }}';
+
+// Copy embed link to clipboard
+function copyEmbedLink() {
+    navigator.clipboard.writeText(embedUrl).then(() => {
+        showNotification('Embed link copied to clipboard!');
+    }).catch(err => {
+        console.error('Failed to copy:', err);
+        showNotification('Failed to copy link', true);
+    });
+}
+
+// Copy embed code to clipboard
+function copyEmbedCode() {
+    const embedCode = `<iframe src="${embedUrl}" width="800" height="600" frameborder="0"></iframe>`;
+    navigator.clipboard.writeText(embedCode).then(() => {
+        showNotification('Embed code copied to clipboard!');
+    }).catch(err => {
+        console.error('Failed to copy:', err);
+        showNotification('Failed to copy code', true);
+    });
+}
+
+// Show notification
+function showNotification(message, isError = false) {
+    const notification = document.createElement('div');
+    notification.className = 'notification' + (isError ? ' error' : '');
+    notification.textContent = message;
+    document.body.appendChild(notification);
+
+    setTimeout(() => {
+        notification.classList.add('show');
+    }, 10);
+
+    setTimeout(() => {
+        notification.classList.remove('show');
+        setTimeout(() => notification.remove(), 300);
+    }, 2000);
+}
+
 // Fetch the visualization data and render it
 fetch('/api/viz/{{ viz_id }}')
     .then(response => response.json())

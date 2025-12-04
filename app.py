@@ -47,6 +47,21 @@ def visualization(viz_id):
                          title=viz_data.get('title', viz_id),
                          description=viz_data.get('description', ''))
 
+@app.route('/embed/<viz_id>')
+def embedded_visualization(viz_id):
+    """Display visualization without header/footer for embedding"""
+    viz_file = VISUALIZATIONS_DIR / f'{viz_id}.json'
+
+    if not viz_file.exists():
+        return "Visualization not found", 404
+
+    with open(viz_file, 'r') as f:
+        viz_data = json.load(f)
+
+    return render_template('embedded.html',
+                         viz_id=viz_id,
+                         title=viz_data.get('title', viz_id))
+
 @app.route('/api/viz/<viz_id>')
 def get_visualization_data(viz_id):
     """API endpoint to get visualization data as JSON"""

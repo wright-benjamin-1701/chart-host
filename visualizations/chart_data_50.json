@@ -1,0 +1,1153 @@
+{
+  "data": [
+    {
+      "line": {
+        "dash": "solid",
+        "color": "#636efa"
+      },
+      "mode": "lines",
+      "name": "Frankenstein; Or, The Modern Prometheus by Mary Wollstonecraft Shelley",
+      "type": "scatter",
+      "xsrc": "jv24601:53:3cf1f3",
+      "x": [
+        "2024-10-22",
+        "2024-10-23",
+        "2024-10-24"
+      ],
+      "ysrc": "jv24601:53:cce5c3",
+      "y": [
+        7631,
+        7665,
+        7682
+      ],
+      "xaxis": "x",
+      "yaxis": "y",
+      "marker": {
+        "symbol": "circle"
+      },
+      "showlegend": true,
+      "legendgroup": "Frankenstein; Or, The Modern Prometheus by Mary Wollstonecraft Shelley",
+      "orientation": "v",
+      "hovertemplate": "Legend=Frankenstein; Or, The Modern Prometheus by Mary Wollstonecraft Shelley<br>Date=%{x}<br>Number of Downloads=%{y}<extra></extra>"
+    },
+    {
+      "line": {
+        "dash": "solid",
+        "color": "#EF553B"
+      },
+      "mode": "lines",
+      "name": "Pride and Prejudice by Jane Austen",
+      "type": "scatter",
+      "xsrc": "jv24601:53:acc19c",
+      "x": [
+        "2024-10-22",
+        "2024-10-23",
+        "2024-10-24"
+      ],
+      "ysrc": "jv24601:53:647b57",
+      "y": [
+        2954,
+        2971,
+        2902
+      ],
+      "xaxis": "x",
+      "yaxis": "y",
+      "marker": {
+        "symbol": "circle"
+      },
+      "showlegend": true,
+      "legendgroup": "Pride and Prejudice by Jane Austen",
+      "orientation": "v",
+      "hovertemplate": "Legend=Pride and Prejudice by Jane Austen<br>Date=%{x}<br>Number of Downloads=%{y}<extra></extra>"
+    },
+    {
+      "line": {
+        "dash": "solid",
+        "color": "#00cc96"
+      },
+      "mode": "lines",
+      "name": "The Scarlet Letter by Nathaniel Hawthorne",
+      "type": "scatter",
+      "xsrc": "jv24601:53:e501d1",
+      "x": [
+        "2024-10-22",
+        "2024-10-23",
+        "2024-10-24"
+      ],
+      "ysrc": "jv24601:53:44ead9",
+      "y": [
+        2627,
+        2419,
+        2299
+      ],
+      "xaxis": "x",
+      "yaxis": "y",
+      "marker": {
+        "symbol": "circle"
+      },
+      "showlegend": true,
+      "legendgroup": "The Scarlet Letter by Nathaniel Hawthorne",
+      "orientation": "v",
+      "hovertemplate": "Legend=The Scarlet Letter by Nathaniel Hawthorne<br>Date=%{x}<br>Number of Downloads=%{y}<extra></extra>"
+    },
+    {
+      "line": {
+        "dash": "solid",
+        "color": "#ab63fa"
+      },
+      "mode": "lines",
+      "name": "Moby Dick; Or, The Whale by Herman Melville",
+      "type": "scatter",
+      "xsrc": "jv24601:53:c5b0a0",
+      "x": [
+        "2024-10-22",
+        "2024-10-23",
+        "2024-10-24"
+      ],
+      "ysrc": "jv24601:53:d368a4",
+      "y": [
+        2563,
+        2620,
+        2567
+      ],
+      "xaxis": "x",
+      "yaxis": "y",
+      "marker": {
+        "symbol": "circle"
+      },
+      "showlegend": true,
+      "legendgroup": "Moby Dick; Or, The Whale by Herman Melville",
+      "orientation": "v",
+      "hovertemplate": "Legend=Moby Dick; Or, The Whale by Herman Melville<br>Date=%{x}<br>Number of Downloads=%{y}<extra></extra>"
+    },
+    {
+      "line": {
+        "dash": "solid",
+        "color": "#FFA15A"
+      },
+      "mode": "lines",
+      "name": "Romeo and Juliet by William Shakespeare",
+      "type": "scatter",
+      "xsrc": "jv24601:53:ba8097",
+      "x": [
+        "2024-10-22",
+        "2024-10-23",
+        "2024-10-24"
+      ],
+      "ysrc": "jv24601:53:c4ea82",
+      "y": [
+        2493,
+        2624,
+        2476
+      ],
+      "xaxis": "x",
+      "yaxis": "y",
+      "marker": {
+        "symbol": "circle"
+      },
+      "showlegend": true,
+      "legendgroup": "Romeo and Juliet by William Shakespeare",
+      "orientation": "v",
+      "hovertemplate": "Legend=Romeo and Juliet by William Shakespeare<br>Date=%{x}<br>Number of Downloads=%{y}<extra></extra>"
+    },
+    {
+      "line": {
+        "dash": "solid",
+        "color": "#19d3f3"
+      },
+      "mode": "lines",
+      "name": "Alice's Adventures in Wonderland by Lewis Carroll",
+      "type": "scatter",
+      "xsrc": "jv24601:53:9fe87b",
+      "x": [
+        "2024-10-22",
+        "2024-10-23",
+        "2024-10-24"
+      ],
+      "ysrc": "jv24601:53:f2db50",
+      "y": [
+        1999,
+        2085,
+        2050
+      ],
+      "xaxis": "x",
+      "yaxis": "y",
+      "marker": {
+        "symbol": "circle"
+      },
+      "showlegend": true,
+      "legendgroup": "Alice's Adventures in Wonderland by Lewis Carroll",
+      "orientation": "v",
+      "hovertemplate": "Legend=Alice's Adventures in Wonderland by Lewis Carroll<br>Date=%{x}<br>Number of Downloads=%{y}<extra></extra>"
+    },
+    {
+      "line": {
+        "dash": "solid",
+        "color": "#FF6692"
+      },
+      "mode": "lines",
+      "name": "A Doll's House : a play by Henrik Ibsen",
+      "type": "scatter",
+      "xsrc": "jv24601:53:209d77",
+      "x": [
+        "2024-10-22",
+        "2024-10-23",
+        "2024-10-24"
+      ],
+      "ysrc": "jv24601:53:33d2d1",
+      "y": [
+        1941,
+        1871,
+        1807
+      ],
+      "xaxis": "x",
+      "yaxis": "y",
+      "marker": {
+        "symbol": "circle"
+      },
+      "showlegend": true,
+      "legendgroup": "A Doll's House : a play by Henrik Ibsen",
+      "orientation": "v",
+      "hovertemplate": "Legend=A Doll's House : a play by Henrik Ibsen<br>Date=%{x}<br>Number of Downloads=%{y}<extra></extra>"
+    },
+    {
+      "line": {
+        "dash": "solid",
+        "color": "#B6E880"
+      },
+      "mode": "lines",
+      "name": "The Legend of Sleepy Hollow by Washington Irving",
+      "type": "scatter",
+      "xsrc": "jv24601:53:0dacd5",
+      "x": [
+        "2024-10-22",
+        "2024-10-23",
+        "2024-10-24"
+      ],
+      "ysrc": "jv24601:53:f56e20",
+      "y": [
+        1792,
+        1899,
+        1799
+      ],
+      "xaxis": "x",
+      "yaxis": "y",
+      "marker": {
+        "symbol": "circle"
+      },
+      "showlegend": true,
+      "legendgroup": "The Legend of Sleepy Hollow by Washington Irving",
+      "orientation": "v",
+      "hovertemplate": "Legend=The Legend of Sleepy Hollow by Washington Irving<br>Date=%{x}<br>Number of Downloads=%{y}<extra></extra>"
+    },
+    {
+      "line": {
+        "dash": "solid",
+        "color": "#FF97FF"
+      },
+      "mode": "lines",
+      "name": "Middlemarch by George Eliot",
+      "type": "scatter",
+      "xsrc": "jv24601:53:9d55e1",
+      "x": [
+        "2024-10-22",
+        "2024-10-23",
+        "2024-10-24"
+      ],
+      "ysrc": "jv24601:53:bd9aee",
+      "y": [
+        1785,
+        1866,
+        1770
+      ],
+      "xaxis": "x",
+      "yaxis": "y",
+      "marker": {
+        "symbol": "circle"
+      },
+      "showlegend": true,
+      "legendgroup": "Middlemarch by George Eliot",
+      "orientation": "v",
+      "hovertemplate": "Legend=Middlemarch by George Eliot<br>Date=%{x}<br>Number of Downloads=%{y}<extra></extra>"
+    },
+    {
+      "line": {
+        "dash": "solid",
+        "color": "#FECB52"
+      },
+      "mode": "lines",
+      "name": "A Room with a View by E. M.  Forster",
+      "type": "scatter",
+      "xsrc": "jv24601:53:6d672a",
+      "x": [
+        "2024-10-22",
+        "2024-10-23",
+        "2024-10-24"
+      ],
+      "ysrc": "jv24601:53:6c9ea2",
+      "y": [
+        1746,
+        1774,
+        1714
+      ],
+      "xaxis": "x",
+      "yaxis": "y",
+      "marker": {
+        "symbol": "circle"
+      },
+      "showlegend": true,
+      "legendgroup": "A Room with a View by E. M.  Forster",
+      "orientation": "v",
+      "hovertemplate": "Legend=A Room with a View by E. M.  Forster<br>Date=%{x}<br>Number of Downloads=%{y}<extra></extra>"
+    }
+  ],
+  "layout": {
+    "title": {
+      "text": "Top 10 E-Books Downloaded from Project Gutenberg over Past 3 Days"
+    },
+    "xaxis": {
+      "dtick": "D1",
+      "title": {
+        "text": "Date"
+      },
+      "anchor": "y",
+      "domain": [
+        0.0,
+        1.0
+      ],
+      "showticklabels": true
+    },
+    "yaxis": {
+      "title": {
+        "text": "Number of Downloads"
+      },
+      "anchor": "x",
+      "domain": [
+        0.0,
+        1.0
+      ]
+    },
+    "legend": {
+      "title": {
+        "text": "Legend"
+      },
+      "tracegroupgap": 0
+    },
+    "template": {
+      "data": {
+        "bar": [
+          {
+            "type": "bar",
+            "marker": {
+              "line": {
+                "color": "#E5ECF6",
+                "width": 0.5
+              },
+              "pattern": {
+                "size": 10,
+                "fillmode": "overlay",
+                "solidity": 0.2
+              }
+            },
+            "error_x": {
+              "color": "#2a3f5f"
+            },
+            "error_y": {
+              "color": "#2a3f5f"
+            }
+          }
+        ],
+        "pie": [
+          {
+            "type": "pie",
+            "automargin": true
+          }
+        ],
+        "table": [
+          {
+            "type": "table",
+            "cells": {
+              "fill": {
+                "color": "#EBF0F8"
+              },
+              "line": {
+                "color": "white"
+              }
+            },
+            "header": {
+              "fill": {
+                "color": "#C8D4E3"
+              },
+              "line": {
+                "color": "white"
+              }
+            }
+          }
+        ],
+        "carpet": [
+          {
+            "type": "carpet",
+            "aaxis": {
+              "gridcolor": "white",
+              "linecolor": "white",
+              "endlinecolor": "#2a3f5f",
+              "minorgridcolor": "white",
+              "startlinecolor": "#2a3f5f"
+            },
+            "baxis": {
+              "gridcolor": "white",
+              "linecolor": "white",
+              "endlinecolor": "#2a3f5f",
+              "minorgridcolor": "white",
+              "startlinecolor": "#2a3f5f"
+            }
+          }
+        ],
+        "mesh3d": [
+          {
+            "type": "mesh3d",
+            "colorbar": {
+              "ticks": "",
+              "outlinewidth": 0
+            }
+          }
+        ],
+        "contour": [
+          {
+            "type": "contour",
+            "colorbar": {
+              "ticks": "",
+              "outlinewidth": 0
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "heatmap": [
+          {
+            "type": "heatmap",
+            "colorbar": {
+              "ticks": "",
+              "outlinewidth": 0
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "scatter": [
+          {
+            "type": "scatter",
+            "fillpattern": {
+              "size": 10,
+              "fillmode": "overlay",
+              "solidity": 0.2
+            }
+          }
+        ],
+        "surface": [
+          {
+            "type": "surface",
+            "colorbar": {
+              "ticks": "",
+              "outlinewidth": 0
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "barpolar": [
+          {
+            "type": "barpolar",
+            "marker": {
+              "line": {
+                "color": "#E5ECF6",
+                "width": 0.5
+              },
+              "pattern": {
+                "size": 10,
+                "fillmode": "overlay",
+                "solidity": 0.2
+              }
+            }
+          }
+        ],
+        "heatmapgl": [
+          {
+            "type": "heatmapgl",
+            "colorbar": {
+              "ticks": "",
+              "outlinewidth": 0
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "histogram": [
+          {
+            "type": "histogram",
+            "marker": {
+              "pattern": {
+                "size": 10,
+                "fillmode": "overlay",
+                "solidity": 0.2
+              }
+            }
+          }
+        ],
+        "parcoords": [
+          {
+            "line": {
+              "colorbar": {
+                "ticks": "",
+                "outlinewidth": 0
+              }
+            },
+            "type": "parcoords"
+          }
+        ],
+        "scatter3d": [
+          {
+            "line": {
+              "colorbar": {
+                "ticks": "",
+                "outlinewidth": 0
+              }
+            },
+            "type": "scatter3d",
+            "marker": {
+              "colorbar": {
+                "ticks": "",
+                "outlinewidth": 0
+              }
+            }
+          }
+        ],
+        "scattergl": [
+          {
+            "type": "scattergl",
+            "marker": {
+              "colorbar": {
+                "ticks": "",
+                "outlinewidth": 0
+              }
+            }
+          }
+        ],
+        "choropleth": [
+          {
+            "type": "choropleth",
+            "colorbar": {
+              "ticks": "",
+              "outlinewidth": 0
+            }
+          }
+        ],
+        "scattergeo": [
+          {
+            "type": "scattergeo",
+            "marker": {
+              "colorbar": {
+                "ticks": "",
+                "outlinewidth": 0
+              }
+            }
+          }
+        ],
+        "histogram2d": [
+          {
+            "type": "histogram2d",
+            "colorbar": {
+              "ticks": "",
+              "outlinewidth": 0
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "scatterpolar": [
+          {
+            "type": "scatterpolar",
+            "marker": {
+              "colorbar": {
+                "ticks": "",
+                "outlinewidth": 0
+              }
+            }
+          }
+        ],
+        "contourcarpet": [
+          {
+            "type": "contourcarpet",
+            "colorbar": {
+              "ticks": "",
+              "outlinewidth": 0
+            }
+          }
+        ],
+        "scattercarpet": [
+          {
+            "type": "scattercarpet",
+            "marker": {
+              "colorbar": {
+                "ticks": "",
+                "outlinewidth": 0
+              }
+            }
+          }
+        ],
+        "scattermapbox": [
+          {
+            "type": "scattermapbox",
+            "marker": {
+              "colorbar": {
+                "ticks": "",
+                "outlinewidth": 0
+              }
+            }
+          }
+        ],
+        "scatterpolargl": [
+          {
+            "type": "scatterpolargl",
+            "marker": {
+              "colorbar": {
+                "ticks": "",
+                "outlinewidth": 0
+              }
+            }
+          }
+        ],
+        "scatterternary": [
+          {
+            "type": "scatterternary",
+            "marker": {
+              "colorbar": {
+                "ticks": "",
+                "outlinewidth": 0
+              }
+            }
+          }
+        ],
+        "histogram2dcontour": [
+          {
+            "type": "histogram2dcontour",
+            "colorbar": {
+              "ticks": "",
+              "outlinewidth": 0
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ]
+      },
+      "layout": {
+        "geo": {
+          "bgcolor": "white",
+          "showland": true,
+          "lakecolor": "white",
+          "landcolor": "#E5ECF6",
+          "showlakes": true,
+          "subunitcolor": "white"
+        },
+        "font": {
+          "color": "#2a3f5f"
+        },
+        "polar": {
+          "bgcolor": "#E5ECF6",
+          "radialaxis": {
+            "ticks": "",
+            "gridcolor": "white",
+            "linecolor": "white"
+          },
+          "angularaxis": {
+            "ticks": "",
+            "gridcolor": "white",
+            "linecolor": "white"
+          }
+        },
+        "scene": {
+          "xaxis": {
+            "ticks": "",
+            "gridcolor": "white",
+            "gridwidth": 2,
+            "linecolor": "white",
+            "zerolinecolor": "white",
+            "showbackground": true,
+            "backgroundcolor": "#E5ECF6"
+          },
+          "yaxis": {
+            "ticks": "",
+            "gridcolor": "white",
+            "gridwidth": 2,
+            "linecolor": "white",
+            "zerolinecolor": "white",
+            "showbackground": true,
+            "backgroundcolor": "#E5ECF6"
+          },
+          "zaxis": {
+            "ticks": "",
+            "gridcolor": "white",
+            "gridwidth": 2,
+            "linecolor": "white",
+            "zerolinecolor": "white",
+            "showbackground": true,
+            "backgroundcolor": "#E5ECF6"
+          }
+        },
+        "title": {
+          "x": 0.05
+        },
+        "xaxis": {
+          "ticks": "",
+          "title": {
+            "standoff": 15
+          },
+          "gridcolor": "white",
+          "linecolor": "white",
+          "automargin": true,
+          "zerolinecolor": "white",
+          "zerolinewidth": 2
+        },
+        "yaxis": {
+          "ticks": "",
+          "title": {
+            "standoff": 15
+          },
+          "gridcolor": "white",
+          "linecolor": "white",
+          "automargin": true,
+          "zerolinecolor": "white",
+          "zerolinewidth": 2
+        },
+        "mapbox": {
+          "style": "light"
+        },
+        "ternary": {
+          "aaxis": {
+            "ticks": "",
+            "gridcolor": "white",
+            "linecolor": "white"
+          },
+          "baxis": {
+            "ticks": "",
+            "gridcolor": "white",
+            "linecolor": "white"
+          },
+          "caxis": {
+            "ticks": "",
+            "gridcolor": "white",
+            "linecolor": "white"
+          },
+          "bgcolor": "#E5ECF6"
+        },
+        "colorway": [
+          "#636efa",
+          "#EF553B",
+          "#00cc96",
+          "#ab63fa",
+          "#FFA15A",
+          "#19d3f3",
+          "#FF6692",
+          "#B6E880",
+          "#FF97FF",
+          "#FECB52"
+        ],
+        "coloraxis": {
+          "colorbar": {
+            "ticks": "",
+            "outlinewidth": 0
+          }
+        },
+        "hovermode": "closest",
+        "colorscale": {
+          "diverging": [
+            [
+              0,
+              "#8e0152"
+            ],
+            [
+              0.1,
+              "#c51b7d"
+            ],
+            [
+              0.2,
+              "#de77ae"
+            ],
+            [
+              0.3,
+              "#f1b6da"
+            ],
+            [
+              0.4,
+              "#fde0ef"
+            ],
+            [
+              0.5,
+              "#f7f7f7"
+            ],
+            [
+              0.6,
+              "#e6f5d0"
+            ],
+            [
+              0.7,
+              "#b8e186"
+            ],
+            [
+              0.8,
+              "#7fbc41"
+            ],
+            [
+              0.9,
+              "#4d9221"
+            ],
+            [
+              1,
+              "#276419"
+            ]
+          ],
+          "sequential": [
+            [
+              0.0,
+              "#0d0887"
+            ],
+            [
+              0.1111111111111111,
+              "#46039f"
+            ],
+            [
+              0.2222222222222222,
+              "#7201a8"
+            ],
+            [
+              0.3333333333333333,
+              "#9c179e"
+            ],
+            [
+              0.4444444444444444,
+              "#bd3786"
+            ],
+            [
+              0.5555555555555556,
+              "#d8576b"
+            ],
+            [
+              0.6666666666666666,
+              "#ed7953"
+            ],
+            [
+              0.7777777777777778,
+              "#fb9f3a"
+            ],
+            [
+              0.8888888888888888,
+              "#fdca26"
+            ],
+            [
+              1.0,
+              "#f0f921"
+            ]
+          ],
+          "sequentialminus": [
+            [
+              0.0,
+              "#0d0887"
+            ],
+            [
+              0.1111111111111111,
+              "#46039f"
+            ],
+            [
+              0.2222222222222222,
+              "#7201a8"
+            ],
+            [
+              0.3333333333333333,
+              "#9c179e"
+            ],
+            [
+              0.4444444444444444,
+              "#bd3786"
+            ],
+            [
+              0.5555555555555556,
+              "#d8576b"
+            ],
+            [
+              0.6666666666666666,
+              "#ed7953"
+            ],
+            [
+              0.7777777777777778,
+              "#fb9f3a"
+            ],
+            [
+              0.8888888888888888,
+              "#fdca26"
+            ],
+            [
+              1.0,
+              "#f0f921"
+            ]
+          ]
+        },
+        "hoverlabel": {
+          "align": "left"
+        },
+        "plot_bgcolor": "#E5ECF6",
+        "paper_bgcolor": "white",
+        "shapedefaults": {
+          "line": {
+            "color": "#2a3f5f"
+          }
+        },
+        "autotypenumbers": "strict",
+        "annotationdefaults": {
+          "arrowhead": 0,
+          "arrowcolor": "#2a3f5f",
+          "arrowwidth": 1
+        }
+      }
+    }
+  }
+}
