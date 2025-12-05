@@ -14,7 +14,7 @@ block content %}
     <p class="description">{{ viz.description }}</p>
     {% endif %}
     <div class="actions">
-      <a href="/embed/{{ viz.id }}" class="btn btn-primary" target="_blank"
+      <a href="/viz/{{ viz.id }}" class="btn btn-primary" target="_blank"
         >View Chart</a
       >
       <button class="btn btn-secondary" onclick="copyEmbedCode('{{ viz.id }}')">
